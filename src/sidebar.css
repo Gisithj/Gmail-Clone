@@ -1,0 +1,16 @@
+.sidebar_compose{
+    margin-top: 15px !important;
+    margin-left: 10px !important;
+    margin-bottom: 15px !important;
+    text-transform: capitalize !important;
+    padding: 15px !important;
+    border-radius: 30px !important;
+    background-color: white !important;
+    width: 130px !important;
+}
+.sidebar{
+    flex: 1;
+}
+.sidebar .MuiSvgIcon-root{
+    color: rgba(255,255,255,0.87);;
+}
