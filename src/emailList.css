@@ -1,0 +1,26 @@
+.emailList{
+    flex: 1;
+    border-radius: 15px;
+    background-color: #303030;
+    
+    /* overflow: scroll; */
+}
+
+.emailList_settings{
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    top:0;
+    z-index: 999;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.emailList_sections{
+    position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 999;    
+}
+.emailList_sections h4{
+    margin: 0;
+}

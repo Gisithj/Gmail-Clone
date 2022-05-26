@@ -1,0 +1,31 @@
+.section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    min-width: 200px;
+    cursor: pointer;
+    background-color: #303030;
+    border-width: 0 !important;
+    height: 30px;
+    color: rgba(255,255,255,.7);
+}
+.section--selected{
+    border-width: 3px !important;
+    color: white ;
+}
+.section:hover{
+    border-width: 3px !important;
+    background-color: rgba(255, 255, 255, 0.186) !important;
+    color: white!important;
+}
+.section h4{
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.section .section_header{
+    position:absolute;
+    display: flex;
+    align-items: center;
+}

@@ -4,6 +4,9 @@ import { Provider } from 'react-redux';
 import { store } from './app/store';
 import App from './App';
 import './index.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import EmailList from './EmailList';
+import Mail from './Mail';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -11,7 +14,15 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <BrowserRouter>
+            <Routes>
+              <Route element={<App/>}>
+                <Route path="/*" element={<EmailList/>}/>
+                <Route path="mail" element ={<Mail/>}/>
+              </Route>
+             
+            </Routes>
+      </BrowserRouter>
     </Provider>
   </React.StrictMode>
 );

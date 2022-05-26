@@ -1,0 +1,37 @@
+.mail{
+    flex: 1;
+    border-radius: 15px;
+    background-color: #303030;
+    
+}
+.mail .MuiSvgIcon-root{
+    color: rgba(255,255,255,0.87);;
+    
+}
+.mail_tools{
+    display: flex;
+    justify-content: space-between;
+}
+.mail_body{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 20px;
+    height: 100vh;
+}
+.mail_bodyheader{
+    display: flex;
+    align-items: center;
+}
+.mail_bodyheader > h2{
+    font-weight: 400;
+    margin-right: 20px;    
+}
+.mail_bodyheader p{
+    margin-left: 20px;
+}
+.mail_message p{
+    margin: 10px;
+    margin-right: 20px;
+    overflow-wrap: break-word;
+}

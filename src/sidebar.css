@@ -1,3 +1,9 @@
+.sidebar{
+    flex: 0.2;
+    max-width: 300px;
+    padding-right: 20px;
+
+}
 .sidebar_compose{
     margin-top: 15px !important;
     margin-left: 10px !important;
@@ -8,8 +14,8 @@
     background-color: white !important;
     width: 130px !important;
 }
-.sidebar{
-    flex: 1;
+.sidebar_compose .MuiSvgIcon-root{
+    color: gray;
 }
 .sidebar .MuiSvgIcon-root{
     color: rgba(255,255,255,0.87);;
